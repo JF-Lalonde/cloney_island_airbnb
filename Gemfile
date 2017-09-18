@@ -31,7 +31,7 @@ gem "jquery-slick-rails"
 gem 'font-awesome-rails'
 gem 'momentjs-rails'
 gem 'bootstrap-sass'
-gem 'bootstrap-daterangepicker-rails'
+
 
 group :development, :test do
   gem 'pry'
@@ -41,8 +41,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'rspec-rails', '~> 3.5'
-  gem 'launchy'
-  gem 'geocoder'
   # gem 'vcr'
   # gem 'webmock'
 end
@@ -54,7 +52,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'pry'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

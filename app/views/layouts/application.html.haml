@@ -5,7 +5,9 @@
     %title CloneyIslandAirbnb
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    %link {:rel => "stylesheet" :href => "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"}
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    %script {:type => "text/javascript", :src =>"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"}
   %body
     .user-widget
       -if current_user
@@ -41,12 +43,14 @@
 
               #hostDropdown.host-dropdown-content
                 -if current_user && current_user.host?
-                  %span=link_to "Host Reservations", host_dashboard_index_path
-                  %span=link_to "Host Listings", user_host_listings_path(current_user)
-                -else
-                  %span=link_to "Become a Host", login_path
-                %br
-                %span=link_to "Host an Experience", new_experience_path
+                  %span=link_to "Your Current Listings", user_host_listings_path(current_user)
+                  %br
+                  %span=link_to "Host your Property", new_user_host_listing_path(current_user)
+                  %br
+                  %span=link_to "Host an Experience", new_experience_path
+                -elsif current_user
+                  %span=link_to "Become a Host", new_experience_path
+
             %span=link_to "Experiences", experiences_path
             %span=link_to "Trips", trips_path
 
@@ -59,4 +63,3 @@
 
     .container-main
       = yield
-
