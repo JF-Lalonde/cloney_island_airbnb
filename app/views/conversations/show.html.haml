@@ -1,4 +1,4 @@
-=if current_user.id == @conversation.trip.user_id || current_user.id == @conversation.trip.host_id
+- if current_user.id == @conversation.trip.user_id || current_user.id == @conversation.trip.host_id
   .conversation-show-container
     %section
       .host-info
@@ -27,7 +27,7 @@
           = @conversation.trip.num_guests
         %h4 Payment
         %p
-          =number_to_currency(@conversation.trip.listing.price)
+          = number_to_currency(@conversation.trip.listing.price)
 
     %section
       .message-wr
