@@ -123,7 +123,7 @@ Once this is complete, your application should be able to send a verification co
 
 ### Built With
 
- * Rails, Ruby, ActiveRecord, HTML, CSS, Sass, ERB, Haml, Postgresql, Twilio, ActionCable, OmniAuth Facebook
+ * Rails, Ruby, JavaScript, HTML, CSS, ERB, Haml, Postgresql, Twilio, ActionCable, OmniAuth Facebook
 
 
 ## Round 1 Authors
