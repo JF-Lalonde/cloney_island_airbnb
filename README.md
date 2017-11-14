@@ -136,7 +136,7 @@ Once this is complete, your application should be able to send a verification co
 
 ## Round 2 Authors
 
-* **Jean-Francois Lalonde** -- [Github](https://github.com/JF-Lalonde)
+* **JF Lalonde** -- [Github](https://github.com/JF-Lalonde)
   * My contribution to this project comprised mainly of integrating Mapbox into our app. When a new location is searched, the map generates pins with the top listings for that given location.
  
 * **Daniel Vogelsang** -- [Github](https://github.com/thedanielvogelsang)
