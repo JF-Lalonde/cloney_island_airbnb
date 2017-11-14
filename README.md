@@ -2,7 +2,7 @@
 
 ![screen shot 2017-11-13 at 7 18 44 pm](https://user-images.githubusercontent.com/26772297/32759674-e9c245c8-c8a7-11e7-8ec5-e0a201de87b3.png)
 
-This Cloney Island repo is a brownfield development project received from a [previous Turing school project](https://github.com/rongxanh88/cloney_island_airbnb). The brownfield assignment was to fix pending bugs; mild stylization/conversion polishes and unification of code languages; and finally the addition of a few new features: a Twilio phone authenitcation method; an airbnb-api-populated listing index; a dynamic map which uses ajax/jquery to populate a MapBox map. Some of the final features included are:
+This Cloney Island repo is a brownfield development project received from a [previous Turing school project](https://github.com/rongxanh88/cloney_island_airbnb). The brownfield assignment was to fix pending bugs, mild stylization/conversion polishes, and unification of code languages, and finally the addition of a few new features: a Twilio phone authentication method, an airbnb-api-populated listing index, and a dynamic map which uses ajax/jquery to populate a MapBox map. Some of the final features included are:
 
   * Test Driven Development
   * Tracking workflow on Pivotal Tracker
